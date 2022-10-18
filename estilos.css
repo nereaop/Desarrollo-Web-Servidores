@@ -1,0 +1,60 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+a,p{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover{
+    color: pink;
+}
+h1{
+    color: white;
+    font-size: 25px;
+}
+div{
+    text-align: center;
+}
+.primera_caja{
+    background-color: rgb(23, 173, 161);
+    height: 25%;
+}
+.segunda_caja{    
+    height: 50%;
+    background-color: white;
+}
+.tercera_caja{
+    background-color:  rgb(23, 173, 161);
+    height: 25%;
+}
+.tercera_caja1{
+    background-color:aqua;
+    height: 25%;
+}
+.primera_columna{
+    float:left;
+    height: 100%;
+    width:33.33%;
+    background-color: crimson;
+
+}
+.segunda_columna{
+    float:left;
+    height: 100%;
+    width:33.33%;
+    background-color: purple;
+}
+.tercera_columna{
+    float:left;
+    height: 100%;
+    width:33.33%;
+    background-color: blue;
+}
+.contenedor{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
