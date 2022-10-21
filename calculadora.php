@@ -27,19 +27,30 @@ class Calculadora{
     $base = 2;
     $potencia= 0;
     $resultado = 0;
+    $contadorCadena = count($cadena);
 
-        for ($i=0; $i < count($cadena); $i++) { 
+        for ($i=0; $i < $contadorCadena; $i++) { 
 
-            if($cadena[$i] == 1){
+            if($cadena[($contadorCadena -1)-$i] == 1){
                $potencia = $base**$i;
-               echo $potencia;
+               $resultado = $resultado + $potencia;
             }
-
-           $resultado = $resultado + $potencia; 
-        
-
         }
     
+        return $resultado;
+    }
+
+    function sumaNumerosPares($array){
+        $contador = count($array);
+        $resultado= 0;
+
+        for ($i=0; $i < $contador; $i++) { 
+            if($array[$contador -1] %2 == 0){
+                $resultado = $resultado ;
+            }
+
+           
+        }
         return $resultado;
     }
 

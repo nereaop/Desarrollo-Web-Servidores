@@ -22,11 +22,18 @@
 
     echo "<br> <p> El coeficinete Binominal de $n y $k es: ".$resultado2."</p>";
    
-    $cadena =[1,0,0]; 
+    $cadena =[1,0,1,0];
+    $cadena2 = "1010";
 
     $potencia = $calculadora1->convierteBinarioDecimal($cadena);
 
-    echo "<br>".$potencia;
+    echo "<br> <p>$cadena2 a decimal es: ".$potencia."</p>";
+
+    $array = [1,2,6,3,9,4];
+
+    $sumaArrays = $calculadora1->sumaNumerosPares($array);
+
+    echo "<br> <p>La suma de los numeros pares del array es: ".$sumaArrays."</p>";
 
    ?>
 </body>
