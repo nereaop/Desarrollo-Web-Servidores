@@ -34,12 +34,34 @@
     for ($i=0; $i < $contador ; $i++) { 
 
         $max_filas_columnas = array_sum($matriz[$i]);
-        echo "<p>".$max_filas_columnas."</p>";
     }
 } 
+function sumaColumna($matriz){
+    $contador = count($matriz);
+   
+    for ($i=0; $i < $contador ; $i++) { 
+        $suma = 0;
+        for ($j=0; $j < $contador ; $j++) { 
+        $suma = $matriz[$j][$i] + $suma;
+        }
+    }
+   
+};
 
+function sumaDiagonales($matriz){
+    $suma_diagonal_izq = 0;
+    $suma_diagonal_der = 0;
+    $contador = count($matriz) - 1;
 
-//sumaFila($matriz);
+    for($i = 0; $contador >= $i; $i++){
+        $suma_diagonal_izq = $suma_diagonal_izq + $matriz[$i][$i];
+        $suma_diagonal_der = $suma_diagonal_der + $matriz[$i][$contador - $i];
+    }
+};
+
+sumaFila($matriz);
+sumaColumna($matriz);
+sumaDiagonales($matriz);
     ?>
 </body>
 </html>
