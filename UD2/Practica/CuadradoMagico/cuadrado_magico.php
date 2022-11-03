@@ -144,13 +144,15 @@ function pintarCuadradoMagico($guardarResultados){
     }
     echo "</table>";
 
-    echo "<div class='centrado'>";
+   
 
     if($guardarResultados->esCuadradoMagico){
-            echo "<h3 class='verdadero'> ES UN CUADRADO MAGICO </h3>";
+        echo "<div class='centrado'>";
+            echo "<h3 class='verdadero'> &#9989; ES UN CUADRADO MAGICO </h3>";
+            echo "</div>";
         } else{
-            echo "<h3 class='falso'> NO ES UN CUADRADO MAGICO </h3>";
-
+            echo "<div class='centradoError'><h3 class='falso'> &#10060; NO ES UN CUADRADO MAGICO </h3></div>";
+            echo "<div class='centradoError'>";
             echo "<p>Respecto a la suma de la primera fila que es ".$guardarResultados->primerResultado."</p>";
             echo "<p> Las filas diferentes a ".$guardarResultados->primerResultado." son: </p>";
             for($i = 0; $i < count($guardarResultados->filas); $i++){
@@ -178,8 +180,9 @@ function pintarCuadradoMagico($guardarResultados){
             }
            echo "</div>";
         }
-$resultados = analizarCuadradoMagico($matriz);
-pintarCuadradoMagico($resultados);
+        
+// $resultados = analizarCuadradoMagico($matriz);
+// pintarCuadradoMagico($resultados);
 
     ?>
 </body>
