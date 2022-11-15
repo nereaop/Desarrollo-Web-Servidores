@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+p {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover {
+    color: pink;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px red;
+    font-family: 'Denk One', sans-serif;
+}
+
+
+div {
+    text-align: center;
+}
+
+.navBar {
+    height: 5%;
+    background-image: url(imagenes/posibleFondo.jpg);
+}
+
+.navBar{
+    background-color: rgb(23, 173, 161);
+    height: 7%;
+}
+.segunda_caja{    
+    height: 100%;
+    background-color: green;
+}
+
+.primera_columna{
+    float:left;
+    height: 100%;
+    width:25%;
+    background-color: rgb(91, 12, 12);
+}
+.segunda_columna{
+    float:left;
+    height: 100%;
+    width:75%;
+    background-color: rgb(91, 12, 12);
+}
+
+.contenedor{
+    background-color: rgb(91, 12, 12);
+    height: 100%;
+    width: 100%;
+}
+.contenedorImagen{
+    margin-left: 5%;
+    width: 88%;
+    height: 50%;
+    padding-top: 12%;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
