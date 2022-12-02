@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(247, 247, 177);
+}
+
+p {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+h1 {
+    color: rgb(72, 47, 4);
+    font-size: 35px;
+    text-shadow: 1px 1px black;
+    font-family: 'Lobster', cursive;
+    padding-top: 0.5%;
+}
+
+div {
+    text-align: center;
+}
+
+.segunda_caja{    
+    max-height: 100%;
+}
+
+.primera_columna{
+    float:left;
+    max-height: 100%;
+    max-width:50%;
+    background-color: rgb(129, 105, 68);
+}
+.segunda_columna{
+    float:left;
+    max-height: 100%;
+    max-width:50%;
+    background-color: rgb(129, 105, 68);
+}
+
+.contenedor{
+    margin-top: 4%;
+    max-height: 100%;
+    max-width: 100%;
+}
+.contenedorImagen{
+    padding-left: 45%;
+    max-width: 45%;
+    max-height: 100%;
+}
+.imagen{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contenedorInformacion{
+    padding-top: 5%;
+    max-width: 55%;
+    max-height: 100%;
+    padding-bottom: 0.2%;
+}

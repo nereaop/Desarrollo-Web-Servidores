@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(imagenes/fondoHarryPotter.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+a{
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+h1 {
+    color: black;
+    font-size: 25px;
+    text-shadow: 3px 3px rgb(253, 194, 0);
+    font-family: 'Harry Potter', sans-serif;
+    padding-top: 0.5%;
+}
+
+div {
+    text-align: center;
+}
+
+.navBar {
+    background-image: url(imagenes/harryPotterNavBar.png);
+    padding-bottom: 0.5%;
+    max-height: 7%;
+}
+
+.segunda_caja{    
+    max-height: 100%;
+}
+
+.primera_columna{
+    float:left;
+    max-height: 100%;
+    max-width:25%;
+
+}
+.segunda_columna{
+    float:left;
+    max-height: 100%;
+    max-width:75%;
+
+}
+
+.contenedor{
+    max-height: 100%;
+    max-width: 100%;
+}
+.contenedorImagen{
+    margin-left: 5%;
+    max-width: 88%;
+    max-height: 50%;
+    padding-top: 12%;
+}
+.imagen{
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 4%;
+}
+.contenedorInformacion1{
+    margin-top: 27%;
+    margin-left: 4%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(194, 53, 53, 0.8);
+}
+.contenedorInformacion2{
+    margin-left: 4%;
+    margin-top: 37%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(255, 221, 0, 0.8);
+}
+.contenedorInformacion3{
+    margin-left: 4%;
+    margin-top: 37%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(41, 50, 173, 0.8);
+}
+.contenedorInformacion4{
+    margin-left: 4%;
+    margin-top: 37%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(34, 80, 19, 0.8);
+}
+.contenedorInformacion5{
+    margin-left: 4%;
+    margin-top: 33%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(194, 53, 53, 0.8);
+}
+.contenedorInformacion6{
+    margin-top: 27%;
+    margin-left: 4%;
+    margin-bottom: 10%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(255, 221, 0, 0.8);
+}
+.contenedorInformacion7{
+    margin-top: 32%;
+    margin-left: 4%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(41, 50, 173, 0.8);
+}
+.contenedorInformacion8{
+    margin-top: 32%;
+    margin-left: 4%;
+    padding: 0.3% 0.5%;
+    max-width: 70%;
+    max-height: 46%;
+    padding-bottom: 1%;
+    background-color: rgba(34, 80, 19, 0.8);
+}

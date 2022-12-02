@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagenes/fondoCategoria.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+a {
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    padding-top: 0.5%;
+}
+
+span {
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    padding-top: 0.5%;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.terror {
+    color: rgb(113, 15, 15);
+    font-size: 40px;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    padding-top: 0.5%;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+div {
+    text-align: center;
+}
+
+.navBar {
+    max-height: 10%;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 1%;
+}
+
+.segunda_caja {
+    max-height: 100%;
+}
+
+.primera_columna {
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+    max-height: 100%;
+    max-width: 50%;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding-bottom: 1%;
+}
+
+.segunda_columna {
+    margin-top: 10%;
+    margin-left: 24%;
+    float: left;
+    max-height: 100%;
+    max-width: 50%;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.contenedor {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.contenedorImagen {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.imagen {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.rojo {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.amarillo {
+    color: yellow;
+}
