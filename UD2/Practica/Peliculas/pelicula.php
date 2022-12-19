@@ -6,11 +6,14 @@
     <title>Peliculas</title>
     <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Denk+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
     <?php
 
-    if($_GET["cat"] == "terror" ){
+    if($_GET["cat"] == 1 ){
         echo '<link rel="stylesheet" href="terror.css">';
-    } elseif($_GET["cat"] == "harryPotter" ){
+    } elseif($_GET["cat"] == 2 ){
         echo '<link rel="stylesheet" href="harryPotter.css">';
     }
 ?>
@@ -18,10 +21,10 @@
 <body>
     <?php
     require("peliculas.php");
-    $categoria = 1;
+   
     $pelicula1 = new Peliculas();
-    $pelicula1->ObtenerLosDatos($categoria);
-    $pelicula1->pintarPelicula();
+    $peliculas = $pelicula1->ObtenerLosDatos();
+    $pelicula1 = $pelicula1->pintarPelicula($peliculas);
     ?>
 </body>
 </html>

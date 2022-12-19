@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(imagenes/cine.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.contenedor{
+    text-align: center;
+    margin-top: 5%;
+}
+a,h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+img{
+    margin-right: 4%;
+}

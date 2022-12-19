@@ -9,21 +9,31 @@ body{
     background-size: cover;
 }
 p {
-    text-decoration: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a{
     text-align: right;
-    color: white;
-    text-shadow: 2px 2px rgb(0, 0, 0);
-    font-size: 16px;
+    color: black;  
+    text-shadow: 3px 3px rgb(253, 194, 0);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Harry Potter', sans-serif;
+    text-decoration: none;
 }
 
 h1 {
+    margin-top: 6%;
+    color: rgb(253, 194, 0);
+    font-size: 25px;
+    text-shadow: 3px 3px black;
+    font-family: 'Harry Potter', sans-serif;
+    padding-top: 0.5%;
+}
+h2 {
     color: black;
     font-size: 25px;
     text-shadow: 3px 3px rgb(253, 194, 0);
@@ -31,14 +41,15 @@ h1 {
     padding-top: 0.5%;
 }
 
+
 div {
     text-align: center;
 }
 
 .navBar {
     background-image: url(imagenes/harryPotterNavBar.png);
-    padding-bottom: 0.5%;
-    max-height: 7%;
+    padding-bottom: 0.3%;
+    max-height: 5%;
 }
 
 .segunda_caja{    
@@ -71,78 +82,74 @@ div {
 .imagen{
     max-width: 100%;
     max-height: 100%;
-    padding-bottom: 4%;
+    padding-bottom: 0.5%;
 }
 .contenedorInformacion1{
-    margin-top: 27%;
-    margin-left: 4%;
+    margin-top: 25%;
+    margin-bottom: 30%;
+    margin-left: 5%;
     padding: 0.3% 0.5%;
     max-width: 70%;
     max-height: 46%;
     padding-bottom: 1%;
-    background-color: rgba(194, 53, 53, 0.8);
+    background-color: rgba(53, 133, 194, 0.8);
 }
-.contenedorInformacion2{
-    margin-left: 4%;
-    margin-top: 37%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(255, 221, 0, 0.8);
-}
-.contenedorInformacion3{
-    margin-left: 4%;
-    margin-top: 37%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(41, 50, 173, 0.8);
-}
-.contenedorInformacion4{
-    margin-left: 4%;
-    margin-top: 37%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(34, 80, 19, 0.8);
-}
-.contenedorInformacion5{
-    margin-left: 4%;
-    margin-top: 33%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(194, 53, 53, 0.8);
-}
-.contenedorInformacion6{
-    margin-top: 27%;
-    margin-left: 4%;
-    margin-bottom: 10%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(255, 221, 0, 0.8);
-}
-.contenedorInformacion7{
-    margin-top: 32%;
-    margin-left: 4%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(41, 50, 173, 0.8);
-}
-.contenedorInformacion8{
-    margin-top: 32%;
-    margin-left: 4%;
-    padding: 0.3% 0.5%;
-    max-width: 70%;
-    max-height: 46%;
-    padding-bottom: 1%;
-    background-color: rgba(34, 80, 19, 0.8);
-}
+h3 {
+    display: inline-block;
+    color: rgb(255, 183, 0);
+    font-family: 'Bree Serif', serif;    
+    font-size: 35px; 
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    }
+
+.button-50 {
+        appearance: button;
+        background-color: #000;
+        background-image: none;
+        border: 1px solid #000;
+        border-radius: 2px;
+        box-shadow: #fff 2px 2px 0 0,#000 2px 2px 0 1px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        float: left;
+        font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 10px;
+        margin-left: 2%;
+        margin-right: 1%;
+        overflow: visible;
+        padding: 5px 5px;
+        text-align: center;
+        text-transform: none;
+        touch-action: manipulation;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+      
+      .button-50:focus {
+        text-decoration: none;
+      }
+      
+      .button-50:hover {
+        text-decoration: none;
+      }
+      
+      .button-50:active {
+        box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+        outline: 0;
+      }
+      
+      .button-50:not([disabled]):active {
+        box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+        transform: translate(2px, 2px);
+      }
+      
+      @media (min-width: 768px) {
+        .button-50 {
+          padding: 12px 50px;
+        }
+      }
